@@ -1,0 +1,108 @@
+Name              Pid      CWD
+----------------- -------- ---
+init                     1 
+kthreadd                 2 
+ksoftirqd/0              3 
+kworker/0:0H             5 
+kworker/u2:0             6 
+rcu_sched                7 
+rcuos/0                  8 
+rcu_bh                   9 
+rcuob/0                 10 
+migration/0             11 
+watchdog/0              12 
+khelper                 13 
+kdevtmpfs               14 
+netns                   15 
+writeback               16 
+kintegrityd             17 
+bioset                  18 
+kworker/u3:0            19 
+kblockd                 20 
+ata_sff                 21 
+khubd                   22 
+md                      23 
+devfreq_wq              24 
+kworker/0:1             25 
+khungtaskd              27 
+kswapd0                 28 
+ksmd                    29 
+khugepaged              30 
+fsnotify_mark           31 
+ecryptfs-kthrea         32 
+crypto                  33 
+kthrotld                45 
+kworker/u2:1            46 
+scsi_eh_0               47 
+scsi_eh_1               48 
+deferwq                 69 
+charger_manager         70 
+kworker/u3:1           107 
+scsi_eh_2              231 
+jbd2/sda1-8            251 
+ext4-rsv-conver        252 
+upstart-udev-br        346 
+udevd                  348 
+rsyslogd               472 
+dbus-daemon            473 
+avahi-daemon           492 
+avahi-daemon           493 
+udevd                  516 
+udevd                  517 
+kpsmoused              532 
+ttm_swap               533 
+kworker/0:2            611 
+cupsd                  711 
+upstart-socket-        805 
+nmbd                   972 
+getty                 1062 
+getty                 1067 
+getty                 1075 
+getty                 1076 
+getty                 1082 
+cron                  1103 /var/spool/cron
+atd                   1104 /var/spool/cron/atjobs
+acpid                 1116 
+whoopsie              1118 
+winbindd              1119 
+winbindd              1132 
+apache2               1193 
+login                 1221 
+apache2               1226 
+apache2               1228 /var/www
+winbindd              1351 
+console-kit-dae       1496 
+polkitd               1563 
+bash                  1573 /home/uocontrol
+sudo                  1672 /home/uocontrol
+su                    1673 /home/uocontrol
+bash                  1680 /var/www
+mysqld                1721 /var/lib/mysql
+winbindd              1850 
+sshd                  2192 
+sshd                  2213 
+sshd                  2366 
+bash                  2367 /home/uocontrol
+sshd                  2465 
+sshd                  2613 
+bash                  2614 /home/uocontrol
+sshd                  2713 
+sshd                  2861 
+sftp-server           2862 /home/uocontrol
+smbd                  2928 
+smbd                  2930 
+smbd                  2931 /tmp
+smbd                  2932 /tmp
+smbd                  2936 /home/rrhh
+smbd                  2939 /home/tecnico
+apache2               2961 
+apache2               2970 
+apache2               2997 
+apache2               3009 
+apache2               3010 
+apache2               3013 
+apache2               3014 
+apache2               3015 
+sh                    3020 
+sh                    3031 
+apache2               3037 

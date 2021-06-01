@@ -1,0 +1,47 @@
+Pid      Name                 Command Time                   Command
+-------- -------------------- ------------------------------ -------
+    1573 bash                 2020-07-03 08:37:09 CEST       date
+    1573 bash                 2020-07-03 08:37:15 CEST       sudo su
+    1680 bash                 2020-07-03 08:37:30 CEST       nano /etc/ssh/sshd_config
+    1680 bash                 2020-07-03 08:37:52 CEST       service ssh restart
+    1680 bash                 2020-07-03 08:38:06 CEST       nano /etc/mysql/my.cnf
+    1680 bash                 2020-07-03 08:38:27 CEST       service mysql restart
+    1680 bash                 2020-07-03 08:38:41 CEST       cd /var/www
+    1680 bash                 2020-07-03 08:39:47 CEST       wget --no-check-certificate https://downloads.joomla.org/cms/joomla3/3-4-4/joomla_3-4-4-stable-full_package-zip?format=zip
+    1680 bash                 2020-07-03 08:40:30 CEST       apt-get install unzip
+    1680 bash                 2020-07-03 08:41:04 CEST       cd /
+    1680 bash                 2020-07-03 08:41:05 CEST       ls
+    1680 bash                 2020-07-03 08:41:10 CEST       ls
+    1680 bash                 2020-07-03 08:41:10 CEST       cd
+    1680 bash                 2020-07-03 08:42:00 CEST       nano /etc/network/interfaces
+    1680 bash                 2020-07-03 08:42:52 CEST       /etc/init.d/networking restart
+    1680 bash                 2020-07-03 08:42:56 CEST       ifconfig
+    1680 bash                 2020-07-03 08:51:00 CEST       adduser rrhh
+    1680 bash                 2020-07-03 08:51:16 CEST       adduser comercial
+    1680 bash                 2020-07-03 08:51:34 CEST       adduser tecnico
+    1680 bash                 2020-07-03 08:52:26 CEST       cp /etc/samba/smb.conf /etc/samba/smb.conf.original
+    1680 bash                 2020-07-03 08:52:37 CEST       nano /etc/samba/smb.conf
+    1680 bash                 2020-07-03 08:56:43 CEST       smbpasswd -L -a rrhh
+    1680 bash                 2020-07-03 08:57:00 CEST       smbpasswd -L -a comercial
+    1680 bash                 2020-07-03 08:57:13 CEST       smbpasswd -L -a tecnico
+    1680 bash                 2020-07-03 08:57:34 CEST       smbpasswd -L -e rrhh
+    1680 bash                 2020-07-03 08:57:39 CEST       smbpasswd -L -e comercial
+    1680 bash                 2020-07-03 08:57:44 CEST       smbpasswd -L -e tecnico
+    1680 bash                 2020-07-03 08:57:51 CEST       service smbd restart
+    1680 bash                 2020-07-03 09:01:17 CEST       ls
+    1680 bash                 2020-07-03 09:01:19 CEST       cd ..
+    1680 bash                 2020-07-03 09:01:19 CEST       ls
+    1680 bash                 2020-07-03 09:01:21 CEST       cd home
+    1680 bash                 2020-07-03 09:01:21 CEST       ls
+    1680 bash                 2020-07-03 09:01:32 CEST       ls /home/rrhh
+    1680 bash                 2020-07-03 09:01:37 CEST       ls /home/rrhh/Nominas
+    1680 bash                 2020-07-03 09:01:52 CEST       ls /home/tecnico/Confidencial
+    1680 bash                 2020-07-03 09:02:21 CEST       cd /var/www
+    1680 bash                 2020-07-03 09:02:26 CEST       clear
+    1680 bash                 2020-07-03 09:02:45 CEST       unzip joomla*
+    1680 bash                 2020-07-03 09:03:11 CEST       mv htaccess.txt .htaccess
+    1680 bash                 2020-07-03 09:03:22 CEST       mysql -u root -p
+    1680 bash                 2020-07-03 09:05:59 CEST       chown -R www-data.www-data /var/www/
+    1680 bash                 2020-07-03 09:06:12 CEST       chmod -R 775 /var/www/
+    1680 bash                 2020-07-03 09:06:24 CEST       rm /var/www/index.html
+    1680 bash                 2020-07-03 09:06:36 CEST       rm /var/www/joomla_3-4-4-stable-full_package-zip\?format\=zip 

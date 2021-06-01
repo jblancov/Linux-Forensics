@@ -1,0 +1,3 @@
+Processor    Vendor           Model
+------------ ---------------- -----
+0            GenuineIntel     Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz

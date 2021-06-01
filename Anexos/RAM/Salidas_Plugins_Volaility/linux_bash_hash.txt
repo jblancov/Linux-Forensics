@@ -1,0 +1,20 @@
+Pid      Name                 Hits   Command                   Full Path
+-------- -------------------- ------ ------------------------- ---------
+    1573 bash                      1 date                      /bin/date
+    1573 bash                      1 sudo                      /usr/bin/sudo
+    1680 bash                      6 smbpasswd                 /usr/bin/smbpasswd
+    1680 bash                      3 adduser                   /usr/sbin/adduser
+    1680 bash                      3 service                   /usr/sbin/service
+    1680 bash                      4 nano                      /usr/bin/nano
+    1680 bash                      1 chown                     /bin/chown
+    1680 bash                      1 ifconfig                  /sbin/ifconfig
+    1680 bash                      2 rm                        /bin/rm
+    1680 bash                      1 chmod                     /bin/chmod
+    1680 bash                      1 wget                      /usr/bin/wget
+    1680 bash                      1 mv                        /bin/mv
+    1680 bash                      1 cp                        /bin/cp
+    1680 bash                      1 mysql                     /usr/bin/mysql
+    1680 bash                      1 unzip                     /usr/bin/unzip
+    1680 bash                      8 ls                        /bin/ls
+    1680 bash                      1 apt-get                   /usr/bin/apt-get
+    1680 bash                      1 clear                     /usr/bin/clear

@@ -1,0 +1,108 @@
+Pid      Name                 Vars
+-------- -------------------- ----
+       1 init                 HOME=/ init=/sbin/init recovery= TERM=linux BOOT_IMAGE=/boot/vmlinuz-3.13.0-32-generic PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin PWD=/ rootmnt=/root 
+       2 kthreadd             
+       3 ksoftirqd/0          
+       5 kworker/0:0H         
+       6 kworker/u2:0         
+       7 rcu_sched            
+       8 rcuos/0              
+       9 rcu_bh               
+      10 rcuob/0              
+      11 migration/0          
+      12 watchdog/0           
+      13 khelper              
+      14 kdevtmpfs            
+      15 netns                
+      16 writeback            
+      17 kintegrityd          
+      18 bioset               
+      19 kworker/u3:0         
+      20 kblockd              
+      21 ata_sff              
+      22 khubd                
+      23 md                   
+      24 devfreq_wq           
+      25 kworker/0:1          
+      27 khungtaskd           
+      28 kswapd0              
+      29 ksmd                 
+      30 khugepaged           
+      31 fsnotify_mark        
+      32 ecryptfs-kthrea      
+      33 crypto               
+      45 kthrotld             
+      46 kworker/u2:1         
+      47 scsi_eh_0            
+      48 scsi_eh_1            
+      69 deferwq              
+      70 charger_manager      
+     107 kworker/u3:1         
+     231 scsi_eh_2            
+     251 jbd2/sda1-8          
+     252 ext4-rsv-conver      
+     346 upstart-udev-br      
+     348 udevd                
+     472 rsyslogd             UPSTART_INSTANCE= UPSTART_JOB=rsyslog TERM=linux 
+     473 dbus-daemon          UPSTART_INSTANCE= UPSTART_JOB=dbus TERM=linux PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin UPSTART_EVENTS=local-filesystems PWD=/ 
+     492 avahi-daemon         
+     493 avahi-daemon         
+     516 udevd                
+     517 udevd                
+     532 kpsmoused            
+     533 ttm_swap             
+     611 kworker/0:2          
+     711 cupsd                
+     805 upstart-socket-      
+     972 nmbd                 
+    1062 getty                
+    1067 getty                
+    1075 getty                ð`y=æ 
+    1076 getty                
+    1082 getty                
+    1103 cron                 PATH=/usr/bin:/bin TERM=linux RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=runlevel UPSTART_JOB=cron UPSTART_INSTANCE= 
+    1104 atd                  
+    1116 acpid                
+    1118 whoopsie             
+    1119 winbindd             UPSTART_INSTANCE= runlevel=2 UPSTART_JOB=rc TERM=linux PATH=/sbin:/bin:/usr/sbin:/usr/bin RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=runlevel PWD=/ previous=N VERBOSE=no 
+    1132 winbindd             UPSTART_INSTANCE= runlevel=2 UPSTART_JOB=rc TERM=linux PATH=/sbin:/bin:/usr/sbin:/usr/bin RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=runlevel PWD=/ previous=N VERBOSE=no 
+    1193 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    1221 login                TERM=linux JOB=rc INSTANCE= RESULT=ok RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=stopped not-container UPSTART_JOB=tty1 UPSTART_INSTANCE= 
+    1226 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    1228 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    1351 winbindd             UPSTART_INSTANCE= runlevel=2 UPSTART_JOB=rc TERM=linux PATH=/sbin:/bin:/usr/sbin:/usr/bin RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=runlevel PWD=/ previous=N VERBOSE=no 
+    1496 console-kit-dae      DBUS_STARTER_ADDRESS=unix:path=/var/run/dbus/system_bus_socket DBUS_STARTER_BUS_TYPE=system 
+    1563 polkitd              DBUS_STARTER_ADDRESS=unix:path=/var/run/dbus/system_bus_socket DBUS_STARTER_BUS_TYPE=system 
+    1573 bash                 SHELL=/bin/bash TERM=linux XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758226.137489-1099208037 HUSHLOGIN=FALSE USER=uocontrol LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: MAIL=/var/mail/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games PWD=/home/uocontrol LANG=es_ES.UTF-8 SHLVL=1 HOME=/home/uocontrol LOGNAME=uocontrol LESSOPEN=| /usr/bin/lesspipe %s LESSCLOSE=/usr/bin/lesspipe %s %s _=/usr/bin/sudo TERM=linux HOME=/home/uocontrol SHELL=/bin/bash USER=uocontrol LOGNAME=uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games LANG=es_ES.UTF-8 MAIL=/var/mail/uocontrol 
+    1672 sudo                 SHELL=/bin/bash TERM=linux XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758226.137489-1099208037 HUSHLOGIN=FALSE USER=uocontrol 
+    1673 su                   TERM=linux 
+    1680 bash                 SHELL=/bin/bash TERM=linux XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758240.36718-381387009 USER=root LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: SUDO_USER=uocontrol SUDO_UID=1000 USERNAME=root MAIL=/var/mail/root PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games PWD=/var/www LANG=es_ES.UTF-8 SHLVL=1 SUDO_COMMAND=/bin/su HOME=/root LOGNAME=root LESSOPEN=| /usr/bin/lesspipe %s SUDO_GID=1000 LESSCLOSE=/usr/bin/lesspipe %s %s _=/bin/rm OLDPWD=/home ðÀ=LA 
+    1721 mysqld               
+    1850 winbindd             UPSTART_INSTANCE= runlevel=2 UPSTART_JOB=rc TERM=linux PATH=/sbin:/bin:/usr/sbin:/usr/bin RUNLEVEL=2 PREVLEVEL=N UPSTART_EVENTS=runlevel PWD=/ previous=N VERBOSE=no 
+    2192 sshd                 
+    2213 sshd                 
+    2366 sshd                 
+    2367 bash                 LC_PAPER=es_ES.UTF-8 LC_ADDRESS=es_ES.UTF-8 LC_MONETARY=es_ES.UTF-8 TERM=xterm-256color SHELL=/bin/bash XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758689.594094-88362692 SSH_CLIENT=192.168.10.200 47938 22 LC_NUMERIC=es_ES.UTF-8 SSH_TTY=/dev/pts/0 USER=uocontrol LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: LC_TELEPHONE=es_ES.UTF-8 MAIL=/var/mail/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games LC_IDENTIFICATION=es_ES.UTF-8 PWD=/home/uocontrol LANG=es_ES.UTF-8 LC_MEASUREMENT=es_ES.UTF-8 SHLVL=1 HOME=/home/uocontrol LOGNAME=uocontrol SSH_CONNECTION=192.168.10.200 47938 192.168.10.2 22 LESSOPEN=| /usr/bin/lesspipe %s LESSCLOSE=/usr/bin/lesspipe %s %s LC_TIME=es_ES.UTF-8 LC_NAME=es_ES.UTF-8 LC_ADDRESS=es_ES.UTF-8 LC_NAME=es_ES.UTF-8 LC_MONETARY=es_ES.UTF-8 LC_PAPER=es_ES.UTF-8 LANG=es_ES.UTF-8 LC_IDENTIFICATION=es_ES.UTF-8 LC_TELEPHONE=es_ES.UTF-8 LC_MEASUREMENT=es_ES.UTF-8 LC_TIME=es_ES.UTF-8 LC_NUMERIC=es_ES.UTF-8 USER=uocontrol LOGNAME=uocontrol HOME=/home/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games MAIL=/var/mail/uocontrol SHELL=/bin/bash SSH_CLIENT=192.168.10.200 47938 22 SSH_CONNECTION=192.168.10.200 47938 192.168.10.2 22 SSH_TTY=/dev/pts/0 TERM=xterm-256color 
+    2465 sshd                 
+    2613 sshd                 
+    2614 bash                 TERM=xterm SHELL=/bin/bash XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758880.904432-1053513187 SSH_CLIENT=88.1.15.110 61664 22 SSH_TTY=/dev/pts/1 USER=uocontrol LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: MAIL=/var/mail/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games PWD=/home/uocontrol LANG=es_ES.UTF-8 SHLVL=1 HOME=/home/uocontrol LOGNAME=uocontrol SSH_CONNECTION=88.1.15.110 61664 192.168.10.2 22 LESSOPEN=| /usr/bin/lesspipe %s LESSCLOSE=/usr/bin/lesspipe %s %s USER=uocontrol LOGNAME=uocontrol HOME=/home/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games MAIL=/var/mail/uocontrol SHELL=/bin/bash SSH_CLIENT=88.1.15.110 61664 22 SSH_CONNECTION=88.1.15.110 61664 192.168.10.2 22 SSH_TTY=/dev/pts/1 TERM=xterm 
+    2713 sshd                 
+    2861 sshd                 
+    2862 sftp-server          SHELL=/bin/bash XDG_SESSION_COOKIE=abfd7d137149e7d428d33a0a0000013f-1593758984.850041-705221489 SSH_CLIENT=88.1.15.110 61665 22 USER=uocontrol MAIL=/var/mail/uocontrol PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games PWD=/home/uocontrol LANG=es_ES.UTF-8 SHLVL=1 HOME=/home/uocontrol LOGNAME=uocontrol SSH_CONNECTION=88.1.15.110 61665 192.168.10.2 22 _=/usr/lib/openssh/sftp-server 
+    2928 smbd                 
+    2930 smbd                 
+    2931 smbd                 
+    2932 smbd                 
+    2936 smbd                 
+    2939 smbd                 
+    2961 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    2970 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    2997 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3009 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3010 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3013 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3014 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3015 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
+    3020 sh                   
+    3031 sh                   
+    3037 apache2              APACHE_RUN_DIR=/var/run/apache2 APACHE_PID_FILE=/var/run/apache2.pid PATH=/usr/local/bin:/usr/bin:/bin APACHE_LOCK_DIR=/var/lock/apache2 LANG=C APACHE_RUN_USER=www-data APACHE_RUN_GROUP=www-data APACHE_LOG_DIR=/var/log/apache2 PWD=/ 
